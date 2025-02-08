@@ -13,7 +13,9 @@
     box-sizing: border-box;
     justify-content: space-between;
     width: 1280px;
+    margin: auto;
 }
+
 
 .menu a{
     text-decoration: none;
@@ -24,12 +26,17 @@
 }
 
 .btn__header {
+
     background: #FF0000;
     border-radius: 50px;
     width: 157px;
     height: 52px;
     color: #fff;
     text-decoration: none;
+    border: 0;
+    font-size: 22px;
+    cursor: pointer;
+
 }
 
 h1 {
@@ -37,16 +44,49 @@ h1 {
     font-weight: 400;
 }
 
-p 
+p {
+    font-size: 26px;
+    font-weight: 400;
+    color: #171717;
 
+
+}
+.wrap {
+    margin: auto;
+    width: 1280px;
+    padding: 89px;
+}
+
+.div__left {
+    display: inline-block;
+    width: 60%;
+}
 
 .div__right {
+    display: inline-block;
     background-image: url(./assets/imagens/backgroun.png);
+    width: 30%;
+    
 }
 
 .img__luffy {
-
+    display: inline-block;
     width: 270px;
     height: 476px;
+    float: right;
+}
 
+.btn__main {
+
+    background: #FF0000;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 50px;
+    width: 210px;
+    height: 58px;
+    color: #fff;
+    border: 0;
+    margin-top: 25px;
+    cursor: pointer;
+    
 }
