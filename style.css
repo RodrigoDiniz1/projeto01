@@ -12,7 +12,7 @@
     align-items: flex-end;
     box-sizing: border-box;
     justify-content: space-between;
-    width: 1280px;
+    width: 1366px;
     margin: auto;
 }
 
@@ -40,40 +40,50 @@
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 52px;
     font-weight: 400;
 }
 
 p {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 400;
     color: #171717;
 
 
 }
 .wrap {
+
     margin: auto;
     width: 1280px;
-    padding: 89px;
+    padding-top: 89px;
+    background-image: url(./assets/imagens/Castelo.webp);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+ 
+
+
 }
 
 .div__left {
     display: inline-block;
     width: 60%;
+    float: inline-start;
 }
 
 .div__right {
     display: inline-block;
-    background-image: url(./assets/imagens/backgroun.png);
-    width: 30%;
+    
+    width: 40%;
     
 }
 
 .img__luffy {
     display: inline-block;
-    width: 270px;
-    height: 476px;
+    width: 370px;
+    height: 676px;
     float: right;
+    position: ;
 }
 
 .btn__main {
